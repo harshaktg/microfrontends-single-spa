@@ -9,7 +9,7 @@ registerApplication(
 registerApplication(
   'react',
   () => import('./components/react/index.js'),
-  () => location.pathname === "/react" || location.pathname === "/" ? true : false
+  () => true
 );
 
 registerApplication(
