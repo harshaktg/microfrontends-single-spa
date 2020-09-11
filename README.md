@@ -11,3 +11,6 @@ Implementation of micro frontends using single SPA. This project comprises of a 
 ```npm start```
 
 App will be started on port 8080
+
+### Live Demo
+[Visit Page](https://microfrontends-single-spa.netlify.app/)
