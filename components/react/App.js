@@ -1,7 +1,7 @@
 import React,{ useEffect, useState } from "react"
 
 const App = () => {
-    const [val, setVal] = useState(0);
+    const [val, setVal] = useState(window.myapp.counter);
 
     useEffect(() => {
         window.addEventListener('onIncrement', () => {
